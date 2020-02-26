@@ -10,4 +10,8 @@ Enjoy reading the code, I hope it is not too hard to digest and feel free to ask
 
 ## How to run
 
-First run `npm i` to install dependencies; then run `npm start` to view the application.
+You first need to create a [GitHub access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
+
+First run `npm i` to install dependencies; then run `GH_TOKEN=token npm start` (where `token` is the GitHub access token created in the previous step) to view the application.
+
+If you run _Windows_, like me, the correct line to run the `start` script is: `$env:GH_TOKEN="token"; npm start`.

@@ -33,7 +33,7 @@ query {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `bearer ${"3b41d6563a501d8fe9d7ca43a0e09e9c0a79b9ec"}`
+      Authorization: `bearer ${process.env.REACT_APP_GH_TOKEN}`
     },
     body: JSON.stringify({
       query
