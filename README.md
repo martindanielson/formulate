@@ -10,7 +10,8 @@ Enjoy reading the code, I hope it is not too hard to digest and feel free to ask
 
 ## How to run
 
-You first need to create a [GitHub access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
+> You first need to create a [GitHub access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/); just fill out a _Note_, check the `repo` scope and then click "Generate token". Now copy the token for use below.
+![image](https://user-images.githubusercontent.com/4882233/75381098-71951f80-58d8-11ea-9d0c-cfebea412e48.png)
 
 First run `npm i` to install dependencies; then run `GH_TOKEN=token npm start` (where `token` is the GitHub access token created in the previous step) to view the application.
 
